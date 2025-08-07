@@ -1,7 +1,7 @@
 import math
 
-num = int(input('enter a number: '))
+num = float(input('enter a number: '))
 
-result = math.sqrt(num)
+result = round(math.sqrt(num),3)
 
 print(result)
